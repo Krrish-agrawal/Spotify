@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=VT323&display=swap');
+
+
+
+body{
+    background-color:whitesmoke;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+
+font-family: "Open Sans", sans-serif;
+
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    background-color:black;
+height:40px;
+    list-style: none;
+    color:aliceblue;
+ 
+
+}
+nav ul li{
+       padding:0 29px;
+    font-size:1.2em;
+}
+
+.brand img{
+   
+    width: 40px;
+    height:37px
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+     padding:0 0;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color:white;
+    font-family: "VT323", monospace; 
+    display:block;
+    width: 50%;
+    margin:24.5px auto;
+    background-image: url("./Images/cover.jpg");
+    background-size: cover;
+    
+    border-radius: 4px;
+
+}
+.bottom{
+    padding:200px auto;
+    position:sticky;
+    height:100px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    width:100%;
+  
+}
+
+
+
+.icons{
+      margin:8px 0;
+      cursor:pointer;
+     font-size: 30px;
+}
+
+#progressBar{
+    width: 90vw;
+    cursor:pointer;
+}
+
+.songItemContainer{
+    margin:20px 6px ;
+}
+.songList{
+    display:block;
+    margin:5px 2px;
+}
+.songItem img{
+    margin: 0 28px;
+    width: 60px;
+    border-radius:900%;
+}
+.songItem{
+    height:40px;
+    display:flex;
+    background-color: white;
+    width:50%;
+    color:black;
+    margin:12px 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.timeStamp{
+    margin:0 2px;
+    cursor:pointer;
+}
+.play{
+    display: flex;
+ left:0;
+}
+.play img{
+    position:absolute;
+    left:10px;
+    height:34px;
+    width:100px;
+  bottom:14px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
